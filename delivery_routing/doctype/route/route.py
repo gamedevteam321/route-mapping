@@ -47,3 +47,5 @@ def calculate_carbon_emission(distance, fuel_type, mileage):
     except Exception as e:
         frappe.log_error(f"Carbon Calc Error: {e}")
         return {"carbon_kg": 0.0}
+
+
